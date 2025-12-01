@@ -1,0 +1,13 @@
+name: GEE_env
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - jupyterlab
+  - matplotlib
+  - scipy       
+  - numpy
+  - earthengine-api
+  - geemap
+  - leafmap 
+  - maplibre
