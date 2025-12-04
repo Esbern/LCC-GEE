@@ -1,4 +1,4 @@
-name: GEE_env
+name: LCC
 channels:
   - conda-forge
 dependencies:
@@ -11,3 +11,7 @@ dependencies:
   - geemap
   - leafmap 
   - maplibre
+  - segment-geospatial
+  - "pytorch=*=cuda*"
+  - groundingdino-py
+  - segment-anything-fast
